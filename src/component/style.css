@@ -1,0 +1,56 @@
+.bg{
+    position: fixed;
+    background-size: cover;
+    top: 0;
+    z-index: 1;
+}
+.link{
+    color: rgb(255, 255, 255) !important;
+    font-size:medium;
+    margin-right:25px ;
+}
+.link :hover{
+    color: blueviolet !important;
+}
+
+
+.carousell-item{
+    z-index: 2;
+}
+
+
+.carousel-control-next { z-index: 3 !important ; }
+.carousel-control-prev { z-index: 3 !important;}
+.carousel-control-next-icon {display: none !important;}
+.carousel-control-prev-icon {display: none !important;}
+.carousel-item.active {display: flex !important;}
+
+
+@media only screen and (max-width: 600px) {
+    .homebtn{
+        font-size: 12px !important;
+    }
+   
+}
+@media only screen and (max-width: 520px) {
+    .homebtn{
+        font-size: 8px !important;
+    }
+    .carousel-indicators  {
+        display: none !important;
+    }
+    .carousel-item.active {
+        display: block !important;
+    }
+}
+@media only screen and (max-width: 402px) {
+    .homebtn{
+        font-size: 6px !important;
+    } 
+}
+
+
+/* .po{
+    margin-top: 50px;
+    width: 500px;
+} */

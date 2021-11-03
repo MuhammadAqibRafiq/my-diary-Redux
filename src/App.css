@@ -1,39 +1,92 @@
-.App {
-  text-align: center;
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.MuiOutlinedInput-root {
+    /* opacity: 0 !important; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ /* SignUp
+  form */
+
+.signup-cardcontent {
+    padding-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.signup-title{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    color: rgb(83, 173, 233);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.signup-account{
+    display: flex;
+    padding-top: 15px;
+    justify-content: flex-end;
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+                /* Login form */
+.login-bg{
+    position: fixed;
+    background-size: cover;
+    width: 100%;
+    /* top: 0; */
+    z-index: 2;
+}
+.login-main{
+    /* background-color: rgb(85, 85, 128); */
+}
+.login-bg img{
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.login-form-border{
+    padding: 60px;
+    box-shadow: 2px 5px 15px 2px #000000;
+    background-color: white;
+    z-index: 2;
+}
+.login-cardcontent{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.login-account{
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+            /* forget page */
+
+.forget-account{
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+}
+.navbar-right a{
+    color: rgb(255, 247, 247);
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .login-cardcontent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         background-size: cover;
+    }
   }
-}
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
 
-.App-link {
-  color: rgb(112, 76, 182);
-}
+  
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
+ 
