@@ -26,7 +26,7 @@ LIVE LINK : https://diary-dc615.web.app/
  
 <h1>MOBILE</h1>
  <h1 align="center">
-    <img src="https://github.com/MuhammadAqibRafiq/my-diary-Redux/blob/main/STATIC/Mobile.png" width="450"  height="650" />
+    <img src="https://github.com/MuhammadAqibRafiq/my-diary-Redux/blob/main/STATIC/Mobile.png" width="450"  height="900" />
       </h1>
 
 
