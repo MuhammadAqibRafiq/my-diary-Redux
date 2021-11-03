@@ -6,11 +6,11 @@
 
 ## 🚀 Quick Review
 
-UPDATED PORTFOLIO
+Diary App
  
 <!--  DEMO : https://www.youtube.com/watch?v=iKydTwHxGDI -->
  
-LIVE LINK : https://aqibportfolio.netlify.app/
+LIVE LINK : https://diary-dc615.web.app/
 
 <p align="center">
 </p>
